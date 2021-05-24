@@ -29,7 +29,7 @@ module.exports = (classExtend) => class extends classExtend {
         await super.setup();
 
         this.allure = new AllureRuntime({
-            resultsDir: 'allure-results'
+            resultsDir: 'allure-report'
         });
         this.global.allureRuntime = this.allure;
     }
