@@ -52,30 +52,33 @@ module.exports = (classExtend) => class extends classExtend {
         switch (eventName) {
         case 'run_describe_start':
             // Called at the start of a test describe block or suite.
-            const {name: parentName} = this.allure.getCurrentSuite() || {};
+            const {name: parentName} = this.currentGroup || {};
 
             const suiteName = (parentName !== undefined && parentName !== ROOT_DESCRIBE_BLOCK)
                 ? `${parentName} ${describeBlock.name}`
                 : describeBlock.name;
-            this.allure.startSuite(suiteName);
+            this.currentGroup = this.allure.startGroup(suiteName);
 
             break;
         case 'run_describe_finish':
             // Called at the end of a describe block or test file.
-            this.allure.endSuite();
+            this.currentGroup.endGroup();
 
             break;
         case 'test_skip':
         case 'test_todo':
             const status = eventName === 'test_skip' ? 'skipped' : 'todo';
 
-            this.allure.startCase(test.name);
-            this.allure.endCase(status, {message: `Test is marked as: ${status}`});
+
+            this.currentGroup.startTest(test.name);
+            this.currentTest = this.currentGroup.startTest(test.name);
+            this.currentTest.endTest();
+            // this.allure.endCase(status, {message: `Test is marked as: ${status}`});
 
             break;
         case 'test_fn_start':
             // Called after beforeAll / beforeEach, and at start of unit test (it() / test()).
-            this.allure.startCase(test.name);
+            this.currentTest = this.currentGroup.startTest(test.name);
 
             break;
         case 'test_done':
@@ -98,10 +101,12 @@ module.exports = (classExtend) => class extends classExtend {
                     details.stack = stripAnsi(stackArray.join('\n'));
                 }
                 
-                this.allure.endCase('failed', details);
+                // this.allure.endCase('failed', details);
+                this.currentTest.endTest();
             } else {
                 // Test passed.
-                this.allure.endCase('passed');
+                // this.allure.endCase('passed');
+                this.currentTest.endTest();
             }
 
             break;
