@@ -109,8 +109,8 @@
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
       "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
     ],
-    "testEnvironment": "jsdom",
-    "testRunner": "/Users/lucas/dev/gha-allure-test/foo/node_modules/jest-circus/runner.js",
+    "testEnvironment": "<rootDir>/.jest-circus-allure-jsdom-environment.js",
+    "testRunner": "jest-circus/runner",
     "transform": {
       "^.+\\.(js|jsx|mjs|cjs|ts|tsx)$": "<rootDir>/config/jest/babelTransform.js",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
@@ -147,5 +147,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "allure-js-commons": "^2.0.0-beta.9",
+    "jest-environment-jsdom-sixteen": "^2.0.0"
   }
 }
