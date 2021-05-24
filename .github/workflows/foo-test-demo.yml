@@ -35,6 +35,7 @@ jobs:
         allure_report: allure-report
         allure_history: allure-history
         keep_reports: 20
+        subfolder: ./foo
 
     - name: Deploy report to Github Pages
       if: always()
