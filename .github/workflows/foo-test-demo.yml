@@ -24,11 +24,8 @@ jobs:
       with:
         ref: gh-pages
         path: gh-pages
-    - run: |
-        echo $(pwd)
-        echo $(ls)
 
-    - name: Allure Report action from marketplace
+    - name: Generate Allure report
       uses: simple-elf/allure-report-action@master
       if: always()
       with:
@@ -38,7 +35,7 @@ jobs:
         # allure_history: allure-history
         keep_reports: 50
 
-    - name: Deploy report to Github Pages
+    - name: Deploy Allure report to Github Pages
       if: always()
       uses: peaceiris/actions-gh-pages@v2
       env:
