@@ -1,0 +1,31 @@
+{
+  "uid" : "e9a6d78ce9bf67f6",
+  "name" : "failure",
+  "historyId" : "ec243be5-449a-42ed-aec4-b63d99f6635c",
+  "time" : {
+    "start" : 1621962416573,
+    "stop" : 1621962416589,
+    "duration" : 16
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9a6d78ce9bf67f6.json",
+  "parameterValues" : [ ]
+}

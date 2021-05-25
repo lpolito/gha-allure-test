@@ -1,0 +1,31 @@
+{
+  "uid" : "ddbadd59c1043895",
+  "name" : "renders learn react link",
+  "historyId" : "0eb3304d-2cfb-4fbd-a1cd-de7a77677a0e",
+  "time" : {
+    "start" : 1621962416526,
+    "stop" : 1621962416572,
+    "duration" : 46
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ddbadd59c1043895.json",
+  "parameterValues" : [ ]
+}

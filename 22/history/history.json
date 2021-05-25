@@ -1,0 +1,42 @@
+{
+  "ec243be5-449a-42ed-aec4-b63d99f6635c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9a6d78ce9bf67f6",
+      "reportUrl" : "https://lpolito.github.io/gha-allure-test/22//#testresult/e9a6d78ce9bf67f6",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621962416573,
+        "stop" : 1621962416589,
+        "duration" : 16
+      }
+    } ]
+  },
+  "0eb3304d-2cfb-4fbd-a1cd-de7a77677a0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ddbadd59c1043895",
+      "reportUrl" : "https://lpolito.github.io/gha-allure-test/22//#testresult/ddbadd59c1043895",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621962416526,
+        "stop" : 1621962416572,
+        "duration" : 46
+      }
+    } ]
+  }
+}
