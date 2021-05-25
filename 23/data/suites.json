@@ -1,0 +1,31 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "renders learn react link",
+    "uid" : "c9a8af1e9eb277f7",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1621962834501,
+      "stop" : 1621962834537,
+      "duration" : 36
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "failure",
+    "uid" : "c1226556e1d3dccb",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1621962834538,
+      "stop" : 1621962834559,
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "suites"
+}
