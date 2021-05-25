@@ -27,12 +27,6 @@ jobs:
     - run: |
         echo $(pwd)
         echo $(ls)
-        cd ..
-        echo $(pwd)
-        echo $(ls)
-        cd ..
-        echo $(pwd)
-        echo $(ls)
 
     - name: Allure Report action from marketplace
       uses: simple-elf/allure-report-action@master
