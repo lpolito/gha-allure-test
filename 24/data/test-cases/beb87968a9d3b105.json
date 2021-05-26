@@ -1,0 +1,31 @@
+{
+  "uid" : "beb87968a9d3b105",
+  "name" : "renders but doesn't exist",
+  "historyId" : "89f15ac1-2a3d-4fd2-987b-01c7b4f28651",
+  "time" : {
+    "start" : 1622044262705,
+    "stop" : 1622044262714,
+    "duration" : 9
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "beb87968a9d3b105.json",
+  "parameterValues" : [ ]
+}

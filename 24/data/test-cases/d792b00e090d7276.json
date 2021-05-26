@@ -1,0 +1,31 @@
+{
+  "uid" : "d792b00e090d7276",
+  "name" : "2 nested renders learn react link",
+  "historyId" : "79e61439-294f-4dc0-9568-7c4af39337a3",
+  "time" : {
+    "start" : 1622044262384,
+    "stop" : 1622044262389,
+    "duration" : 5
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d792b00e090d7276.json",
+  "parameterValues" : [ ]
+}
