@@ -1,0 +1,31 @@
+{
+  "uid" : "435f5f357c63985c",
+  "name" : "renders but doesn't exist",
+  "historyId" : "07ce0935-ef42-4254-9305-912c9d19755c",
+  "time" : {
+    "start" : 1622048991452,
+    "stop" : 1622048991467,
+    "duration" : 15
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "435f5f357c63985c.json",
+  "parameterValues" : [ ]
+}

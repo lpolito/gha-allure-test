@@ -3,6 +3,13 @@
   "reportUrl" : "https://lpolito.github.io/gha-allure-test/24/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 366
+  }
+}, {
+  "buildOrder" : 24,
+  "reportUrl" : "https://lpolito.github.io/gha-allure-test/24/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 408
   }
 }, {

@@ -1,80 +1,80 @@
 [ {
-  "uid" : "6ad1cc8696c6d5da",
-  "name" : "nested renders learn react link",
-  "time" : {
-    "start" : 1622044262715,
-    "stop" : 1622044262721,
-    "duration" : 6
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "7fd0902b5cc29ec2",
-  "name" : "2 nested renders but doesn't exist",
-  "time" : {
-    "start" : 1622044262390,
-    "stop" : 1622044262396,
-    "duration" : 6
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "beb87968a9d3b105",
+  "uid" : "435f5f357c63985c",
   "name" : "renders but doesn't exist",
   "time" : {
-    "start" : 1622044262705,
-    "stop" : 1622044262714,
-    "duration" : 9
+    "start" : 1622048991452,
+    "stop" : 1622048991467,
+    "duration" : 15
   },
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "a839917acec78444",
-  "name" : "renders learn react link",
-  "time" : {
-    "start" : 1622044262696,
-    "stop" : 1622044262704,
-    "duration" : 8
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "9edbb72ef8d0f5c6",
-  "name" : "2 renders learn react link",
-  "time" : {
-    "start" : 1622044262320,
-    "stop" : 1622044262365,
-    "duration" : 45
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "764c0cd0916ed8f3",
-  "name" : "2 renders but doesn't exist",
-  "time" : {
-    "start" : 1622044262366,
-    "stop" : 1622044262384,
-    "duration" : 18
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "66161a6a30e30a83",
+  "uid" : "cc24ab3d34ebeb31",
   "name" : "nested renders but doesn't exist",
   "time" : {
-    "start" : 1622044262721,
-    "stop" : 1622044262728,
-    "duration" : 7
+    "start" : 1622048991473,
+    "stop" : 1622048991478,
+    "duration" : 5
   },
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "d792b00e090d7276",
+  "uid" : "9f20f015654b0dee",
+  "name" : "2 nested renders but doesn't exist",
+  "time" : {
+    "start" : 1622048991171,
+    "stop" : 1622048991177,
+    "duration" : 6
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "452180d9b19ddb43",
   "name" : "2 nested renders learn react link",
   "time" : {
-    "start" : 1622044262384,
-    "stop" : 1622044262389,
+    "start" : 1622048991166,
+    "stop" : 1622048991171,
     "duration" : 5
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "a41582021c0d4870",
+  "name" : "2 renders learn react link",
+  "time" : {
+    "start" : 1622048991112,
+    "stop" : 1622048991148,
+    "duration" : 36
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "6d548071f45c7bfa",
+  "name" : "nested renders learn react link",
+  "time" : {
+    "start" : 1622048991468,
+    "stop" : 1622048991473,
+    "duration" : 5
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "8c9b6c4ad9e60e9",
+  "name" : "2 renders but doesn't exist",
+  "time" : {
+    "start" : 1622048991150,
+    "stop" : 1622048991165,
+    "duration" : 15
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "c7e97f48f4b52430",
+  "name" : "renders learn react link",
+  "time" : {
+    "start" : 1622048991444,
+    "stop" : 1622048991452,
+    "duration" : 8
   },
   "status" : "unknown",
   "severity" : "normal"

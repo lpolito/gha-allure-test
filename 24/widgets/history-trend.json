@@ -11,6 +11,18 @@
     "total" : 8
   }
 }, {
+  "buildOrder" : 24,
+  "reportUrl" : "https://lpolito.github.io/gha-allure-test/24/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 8,
+    "total" : 8
+  }
+}, {
   "buildOrder" : 23,
   "reportUrl" : "https://lpolito.github.io/gha-allure-test/23/",
   "reportName" : "Allure Report with history",

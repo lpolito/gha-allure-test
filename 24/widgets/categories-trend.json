@@ -4,6 +4,11 @@
   "reportName" : "Allure Report with history",
   "data" : { }
 }, {
+  "buildOrder" : 24,
+  "reportUrl" : "https://lpolito.github.io/gha-allure-test/24/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 23,
   "reportUrl" : "https://lpolito.github.io/gha-allure-test/23/",
   "reportName" : "Allure Report with history",
