@@ -1,90 +1,90 @@
 [ {
-  "uid" : "ed241e13a95fd1f9",
-  "name" : "nested renders but doesn't exist",
-  "time" : {
-    "start" : 1622654665777,
-    "stop" : 1622654665789,
-    "duration" : 12
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d7bf71b5c14bf80d",
-  "name" : "2 nested renders learn react link",
-  "time" : {
-    "start" : 1622654665392,
-    "stop" : 1622654665404,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "962b963af1d46195",
-  "name" : "2 nested renders but doesn't exist",
-  "time" : {
-    "start" : 1622654665405,
-    "stop" : 1622654665417,
-    "duration" : 12
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "647040224b751665",
-  "name" : "renders learn react link",
-  "time" : {
-    "start" : 1622654665723,
-    "stop" : 1622654665747,
-    "duration" : 24
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ee5f014a7a096ef4",
-  "name" : "random failure",
-  "time" : {
-    "start" : 1622654665417,
-    "stop" : 1622654665424,
-    "duration" : 7
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "930d397cdcb9e7f4",
-  "name" : "2 renders but doesn't exist",
-  "time" : {
-    "start" : 1622654665367,
-    "stop" : 1622654665391,
-    "duration" : 24
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "1e2ba6570c45692",
-  "name" : "2 renders learn react link",
-  "time" : {
-    "start" : 1622654665279,
-    "stop" : 1622654665365,
-    "duration" : 86
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13c7a7c1cf0632f2",
-  "name" : "renders but doesn't exist",
-  "time" : {
-    "start" : 1622654665747,
-    "stop" : 1622654665766,
-    "duration" : 19
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "bfa572940381af37",
+  "uid" : "ad6b608611d6ae30",
   "name" : "nested renders learn react link",
   "time" : {
-    "start" : 1622654665766,
-    "stop" : 1622654665777,
-    "duration" : 11
+    "start" : 1622654917403,
+    "stop" : 1622654917415,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ef1994c82560434",
+  "name" : "2 renders learn react link",
+  "time" : {
+    "start" : 1622654916918,
+    "stop" : 1622654917003,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a973a21ae304e69",
+  "name" : "renders learn react link",
+  "time" : {
+    "start" : 1622654917368,
+    "stop" : 1622654917384,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6162ebd3f3fefbe7",
+  "name" : "nested renders but doesn't exist",
+  "time" : {
+    "start" : 1622654917416,
+    "stop" : 1622654917429,
+    "duration" : 13
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c3a25e8dfc705d1c",
+  "name" : "2 nested renders learn react link",
+  "time" : {
+    "start" : 1622654917030,
+    "stop" : 1622654917044,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5641cb9e9875c618",
+  "name" : "2 renders but doesn't exist",
+  "time" : {
+    "start" : 1622654917004,
+    "stop" : 1622654917030,
+    "duration" : 26
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c774168ebd4d11c5",
+  "name" : "2 nested renders but doesn't exist",
+  "time" : {
+    "start" : 1622654917045,
+    "stop" : 1622654917060,
+    "duration" : 15
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cff389ca50b71663",
+  "name" : "renders but doesn't exist",
+  "time" : {
+    "start" : 1622654917385,
+    "stop" : 1622654917402,
+    "duration" : 17
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "59f9c6acaabec01e",
+  "name" : "random failure",
+  "time" : {
+    "start" : 1622654917061,
+    "stop" : 1622654917067,
+    "duration" : 6
   },
   "status" : "passed",
   "severity" : "normal"

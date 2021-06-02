@@ -24,11 +24,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "ad6b608611d6ae30",
+      "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/ad6b608611d6ae30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622654917403,
+        "stop" : 1622654917415,
+        "duration" : 12
+      }
+    }, {
       "uid" : "bfa572940381af37",
       "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/bfa572940381af37",
       "status" : "passed",
@@ -91,13 +100,23 @@
   "4b37060270e94fd95aae40b1cb901be9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "5641cb9e9875c618",
+      "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/5641cb9e9875c618",
+      "status" : "broken",
+      "statusDetails" : "TestingLibraryElementError",
+      "time" : {
+        "start" : 1622654917004,
+        "stop" : 1622654917030,
+        "duration" : 26
+      }
+    }, {
       "uid" : "930d397cdcb9e7f4",
       "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/930d397cdcb9e7f4",
       "status" : "broken",
@@ -222,13 +241,23 @@
   "651329bb0034d199dff476bfc752cb71" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "c774168ebd4d11c5",
+      "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/c774168ebd4d11c5",
+      "status" : "broken",
+      "statusDetails" : "TestingLibraryElementError",
+      "time" : {
+        "start" : 1622654917045,
+        "stop" : 1622654917060,
+        "duration" : 15
+      }
+    }, {
       "uid" : "962b963af1d46195",
       "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/962b963af1d46195",
       "status" : "broken",
@@ -335,11 +364,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "a973a21ae304e69",
+      "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/a973a21ae304e69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622654917368,
+        "stop" : 1622654917384,
+        "duration" : 16
+      }
+    }, {
       "uid" : "647040224b751665",
       "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/647040224b751665",
       "status" : "passed",
@@ -362,13 +400,23 @@
   "7415b8202b6a56921f33d36b9d92a5db" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "cff389ca50b71663",
+      "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/cff389ca50b71663",
+      "status" : "broken",
+      "statusDetails" : "TestingLibraryElementError",
+      "time" : {
+        "start" : 1622654917385,
+        "stop" : 1622654917402,
+        "duration" : 17
+      }
+    }, {
       "uid" : "13c7a7c1cf0632f2",
       "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/13c7a7c1cf0632f2",
       "status" : "broken",
@@ -395,11 +443,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "7ef1994c82560434",
+      "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/7ef1994c82560434",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622654916918,
+        "stop" : 1622654917003,
+        "duration" : 85
+      }
+    }, {
       "uid" : "1e2ba6570c45692",
       "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/1e2ba6570c45692",
       "status" : "passed",
@@ -522,13 +579,23 @@
   "7e9d7c6392d910dfc42ac205162d1b0e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "6162ebd3f3fefbe7",
+      "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/6162ebd3f3fefbe7",
+      "status" : "broken",
+      "statusDetails" : "TestingLibraryElementError",
+      "time" : {
+        "start" : 1622654917416,
+        "stop" : 1622654917429,
+        "duration" : 13
+      }
+    }, {
       "uid" : "ed241e13a95fd1f9",
       "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/ed241e13a95fd1f9",
       "status" : "broken",
@@ -555,11 +622,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "c3a25e8dfc705d1c",
+      "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/c3a25e8dfc705d1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622654917030,
+        "stop" : 1622654917044,
+        "duration" : 14
+      }
+    }, {
       "uid" : "d7bf71b5c14bf80d",
       "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/d7bf71b5c14bf80d",
       "status" : "passed",
@@ -644,11 +720,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "59f9c6acaabec01e",
+      "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/59f9c6acaabec01e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622654917061,
+        "stop" : 1622654917067,
+        "duration" : 6
+      }
+    }, {
       "uid" : "ee5f014a7a096ef4",
       "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/ee5f014a7a096ef4",
       "status" : "failed",

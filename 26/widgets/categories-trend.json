@@ -3,6 +3,13 @@
   "reportUrl" : "https://lpolito.github.io/gha-allure-test/26/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "Test defects" : 4
+  }
+}, {
+  "buildOrder" : 26,
+  "reportUrl" : "https://lpolito.github.io/gha-allure-test/26/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "Product defects" : 1,
     "Test defects" : 4
   }
