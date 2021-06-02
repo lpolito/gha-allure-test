@@ -1,0 +1,209 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 02 17:16:01 GMT 2021","Wed Jun 02 17:16:01 GMT 2021","17","src","","App.test.js","","","renders learn react link","
+### Test
+```typescript
+() => {
+  (0, _react.render)(
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(
+      _App.default,
+      {},
+      void 0,
+      false,
+      {
+        fileName: _jsxFileName,
+        lineNumber: 5,
+        columnNumber: 10,
+      },
+      void 0
+    )
+  );
+
+  const linkElement = _react.screen.getByText(/learn react/i);
+
+  expect(linkElement).toBeInTheDocument();
+};
+
+```
+"
+"broken","Wed Jun 02 17:16:01 GMT 2021","Wed Jun 02 17:16:01 GMT 2021","14","src","","App2.test.js","","","2 nested renders but doesn't exist","
+### Test
+```typescript
+() => {
+  (0, _react.render)(
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(
+      _App.default,
+      {},
+      void 0,
+      false,
+      {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 12,
+      },
+      void 0
+    )
+  );
+
+  const linkElement = _react.screen.getByText(/learn bupkis/i);
+
+  expect(linkElement).toBeInTheDocument();
+};
+
+```
+"
+"broken","Wed Jun 02 17:16:01 GMT 2021","Wed Jun 02 17:16:01 GMT 2021","17","src","","App.test.js","","","renders but doesn't exist","
+### Test
+```typescript
+() => {
+  (0, _react.render)(
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(
+      _App.default,
+      {},
+      void 0,
+      false,
+      {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 10,
+      },
+      void 0
+    )
+  );
+
+  const linkElement = _react.screen.getByText(/learn bupkis/i);
+
+  expect(linkElement).toBeInTheDocument();
+};
+
+```
+"
+"broken","Wed Jun 02 17:16:01 GMT 2021","Wed Jun 02 17:16:01 GMT 2021","29","src","","App2.test.js","","","2 renders but doesn't exist","
+### Test
+```typescript
+() => {
+  (0, _react.render)(
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(
+      _App.default,
+      {},
+      void 0,
+      false,
+      {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 10,
+      },
+      void 0
+    )
+  );
+
+  const linkElement = _react.screen.getByText(/learn bupkis/i);
+
+  expect(linkElement).toBeInTheDocument();
+};
+
+```
+"
+"passed","Wed Jun 02 17:16:01 GMT 2021","Wed Jun 02 17:16:01 GMT 2021","16","src","","App2.test.js","","","2 nested renders learn react link","
+### Test
+```typescript
+() => {
+  (0, _react.render)(
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(
+      _App.default,
+      {},
+      void 0,
+      false,
+      {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 12,
+      },
+      void 0
+    )
+  );
+
+  const linkElement = _react.screen.getByText(/learn react/i);
+
+  expect(linkElement).toBeInTheDocument();
+};
+
+```
+"
+"passed","Wed Jun 02 17:16:01 GMT 2021","Wed Jun 02 17:16:01 GMT 2021","13","src","","App.test.js","","","nested renders learn react link","
+### Test
+```typescript
+() => {
+  (0, _react.render)(
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(
+      _App.default,
+      {},
+      void 0,
+      false,
+      {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 12,
+      },
+      void 0
+    )
+  );
+
+  const linkElement = _react.screen.getByText(/learn react/i);
+
+  expect(linkElement).toBeInTheDocument();
+};
+
+```
+"
+"passed","Wed Jun 02 17:16:01 GMT 2021","Wed Jun 02 17:16:01 GMT 2021","92","src","","App2.test.js","","","2 renders learn react link","
+### Test
+```typescript
+() => {
+  (0, _react.render)(
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(
+      _App.default,
+      {},
+      void 0,
+      false,
+      {
+        fileName: _jsxFileName,
+        lineNumber: 6,
+        columnNumber: 10,
+      },
+      void 0
+    )
+  );
+
+  const linkElement = _react.screen.getByText(/learn react/i);
+
+  expect(linkElement).toBeInTheDocument();
+};
+
+```
+"
+"broken","Wed Jun 02 17:16:01 GMT 2021","Wed Jun 02 17:16:01 GMT 2021","12","src","","App.test.js","","","nested renders but doesn't exist","
+### Test
+```typescript
+() => {
+  (0, _react.render)(
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(
+      _App.default,
+      {},
+      void 0,
+      false,
+      {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 12,
+      },
+      void 0
+    )
+  );
+
+  const linkElement = _react.screen.getByText(/learn bupkis/i);
+
+  expect(linkElement).toBeInTheDocument();
+};
+
+```
+"

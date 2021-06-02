@@ -1,0 +1,121 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "src",
+    "children" : [ {
+      "name" : "App2.test.js",
+      "children" : [ {
+        "name" : "2 renders learn react link",
+        "uid" : "82d98236500f0876",
+        "parentUid" : "8ffa5428018512c90ae88ff01585bbbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622654161467,
+          "stop" : 1622654161559,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2 renders but doesn't exist",
+        "uid" : "17ccd15f67d2ffd",
+        "parentUid" : "8ffa5428018512c90ae88ff01585bbbf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622654161560,
+          "stop" : 1622654161589,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2 nested renders learn react link",
+        "uid" : "89ea95a85b6c3508",
+        "parentUid" : "8ffa5428018512c90ae88ff01585bbbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622654161590,
+          "stop" : 1622654161606,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2 nested renders but doesn't exist",
+        "uid" : "bc716a68c91fd44",
+        "parentUid" : "8ffa5428018512c90ae88ff01585bbbf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622654161606,
+          "stop" : 1622654161620,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ffa5428018512c90ae88ff01585bbbf"
+    }, {
+      "name" : "App.test.js",
+      "children" : [ {
+        "name" : "renders learn react link",
+        "uid" : "519ebab5bd3f83aa",
+        "parentUid" : "7b73a54ebda17ebd41aea38dae2117e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622654161932,
+          "stop" : 1622654161949,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "renders but doesn't exist",
+        "uid" : "7808fa478fae7e66",
+        "parentUid" : "7b73a54ebda17ebd41aea38dae2117e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622654161949,
+          "stop" : 1622654161966,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "nested renders learn react link",
+        "uid" : "3416b2390c21994e",
+        "parentUid" : "7b73a54ebda17ebd41aea38dae2117e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622654161967,
+          "stop" : 1622654161980,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "nested renders but doesn't exist",
+        "uid" : "1227b74e87a6523a",
+        "parentUid" : "7b73a54ebda17ebd41aea38dae2117e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622654161980,
+          "stop" : 1622654161992,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b73a54ebda17ebd41aea38dae2117e3"
+    } ],
+    "uid" : "b4368e01c53284e6cd2d169f6c788a60"
+  } ],
+  "name" : "suites"
+}
