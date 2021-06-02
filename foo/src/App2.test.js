@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { describe } from 'jest-circus';
+
 import App from './App';
 
 test('2 renders learn react link', () => {
@@ -26,4 +26,9 @@ describe('2 we are testing this thing but it\'s nested', () => {
     const linkElement = screen.getByText(/learn bupkis/i);
     expect(linkElement).toBeInTheDocument();
   });
+});
+
+test('random failure', () => {
+  const time = Date.now();
+  expect(time % 2).toBe(0);
 });
