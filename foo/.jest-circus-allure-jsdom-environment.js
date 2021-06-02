@@ -1,4 +1,4 @@
-const JestCircusAllureBaseEnvironment = require('./.jest-circus-allure-base-environment');
+const {extendAllureBaseEnvironment} = require('jest-circus-allure-environment');
 const jsdomEnv = require('jest-environment-jsdom-sixteen');
 
-module.exports = JestCircusAllureBaseEnvironment(jsdomEnv);
+module.exports = extendAllureBaseEnvironment(jsdomEnv);

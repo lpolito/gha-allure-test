@@ -150,6 +150,7 @@
   },
   "devDependencies": {
     "allure-js-commons": "^2.0.0-beta.9",
+    "jest-circus-allure-environment": "^1.1.1",
     "jest-environment-jsdom-sixteen": "^2.0.0"
   }
 }
