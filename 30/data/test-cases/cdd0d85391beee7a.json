@@ -1,0 +1,203 @@
+{
+  "uid" : "cdd0d85391beee7a",
+  "name" : "nested renders but doesn't exist",
+  "fullName" : "nested renders but doesn't exist",
+  "historyId" : "7e9d7c6392d910dfc42ac205162d1b0e",
+  "time" : {
+    "start" : 1623350892944,
+    "stop" : 1623350892956,
+    "duration" : 12
+  },
+  "description" : "\n### Test\n```typescript\n() => {\n  (0, _react.render)(\n    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(\n      _App.default,\n      {},\n      void 0,\n      false,\n      {\n        fileName: _jsxFileName,\n        lineNumber: 24,\n        columnNumber: 12,\n      },\n      void 0\n    )\n  );\n\n  const linkElement = _react.screen.getByText(/learn bupkis/i);\n\n  expect(linkElement).toBeInTheDocument();\n};\n\n```\n",
+  "descriptionHtml" : "<h3>Test</h3>\n<pre><code class=\"language-typescript\">() =&gt; {\n  (0, _react.render)(\n    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(\n      _App.default,\n      {},\n      void 0,\n      false,\n      {\n        fileName: _jsxFileName,\n        lineNumber: 24,\n        columnNumber: 12,\n      },\n      void 0\n    )\n  );\n\n  const linkElement = _react.screen.getByText(/learn bupkis/i);\n\n  expect(linkElement).toBeInTheDocument();\n};\n\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TestingLibraryElementError",
+  "statusTrace" : "Unable to find an element with the text: /learn bupkis/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\n<body>\n  <div>\n    <div\n      class=\"App\"\n    >\n      <header\n        class=\"App-header\"\n      >\n        <img\n          alt=\"logo\"\n          class=\"App-logo\"\n          src=\"logo.svg\"\n        />\n        <p>\n          Edit \n          <code>\n            src/App.js\n          </code>\n           and save to reload.\n        </p>\n        <a\n          class=\"App-link\"\n          href=\"https://reactjs.org\"\n          rel=\"noopener noreferrer\"\n          target=\"_blank\"\n        >\n          Learn React\n        </a>\n      </header>\n    </div>\n  </div>\n</body>",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src"
+  }, {
+    "name" : "package",
+    "value" : "src"
+  }, {
+    "name" : "subSuite",
+    "value" : "App.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 7,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "1cfb2d961dbf2fd3",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/29//#testresult/1cfb2d961dbf2fd3",
+        "status" : "broken",
+        "statusDetails" : "TestingLibraryElementError",
+        "time" : {
+          "start" : 1623350734372,
+          "stop" : 1623350734384,
+          "duration" : 12
+        }
+      }, {
+        "uid" : "f65af0020e7abee3",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/28//#testresult/f65af0020e7abee3",
+        "status" : "broken",
+        "statusDetails" : "TestingLibraryElementError",
+        "time" : {
+          "start" : 1623350539939,
+          "stop" : 1623350539953,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "696ca875f6f5b74a",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/27//#testresult/696ca875f6f5b74a",
+        "status" : "broken",
+        "statusDetails" : "TestingLibraryElementError",
+        "time" : {
+          "start" : 1623350238805,
+          "stop" : 1623350238816,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "6162ebd3f3fefbe7",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/6162ebd3f3fefbe7",
+        "status" : "broken",
+        "statusDetails" : "TestingLibraryElementError",
+        "time" : {
+          "start" : 1622654917416,
+          "stop" : 1622654917429,
+          "duration" : 13
+        }
+      }, {
+        "uid" : "ed241e13a95fd1f9",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/ed241e13a95fd1f9",
+        "status" : "broken",
+        "statusDetails" : "TestingLibraryElementError",
+        "time" : {
+          "start" : 1622654665777,
+          "stop" : 1622654665789,
+          "duration" : 12
+        }
+      }, {
+        "uid" : "1227b74e87a6523a",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/25//#testresult/1227b74e87a6523a",
+        "status" : "broken",
+        "statusDetails" : "TestingLibraryElementError",
+        "time" : {
+          "start" : 1622654161980,
+          "stop" : 1622654161992,
+          "duration" : 12
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cdd0d85391beee7a.json",
+  "parameterValues" : [ ]
+}
