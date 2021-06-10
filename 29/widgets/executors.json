@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://lpolito.github.io/gha-allure-test",
+  "buildOrder" : 29,
+  "buildName" : "GitHub Actions Run #926138412",
+  "buildUrl" : "https://github.com/lpolito/gha-allure-test/actions/runs/926138412",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://lpolito.github.io/gha-allure-test/29/"
+} ]

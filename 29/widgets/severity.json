@@ -1,0 +1,91 @@
+[ {
+  "uid" : "c52f174b7300548c",
+  "name" : "2 nested renders but doesn't exist",
+  "time" : {
+    "start" : 1623350734013,
+    "stop" : 1623350734027,
+    "duration" : 14
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5cc825129be24c7b",
+  "name" : "random failure",
+  "time" : {
+    "start" : 1623350734028,
+    "stop" : 1623350734033,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cfb2d961dbf2fd3",
+  "name" : "nested renders but doesn't exist",
+  "time" : {
+    "start" : 1623350734372,
+    "stop" : 1623350734384,
+    "duration" : 12
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7e37899ce44fe9ea",
+  "name" : "nested renders learn react link",
+  "time" : {
+    "start" : 1623350734360,
+    "stop" : 1623350734371,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6df1de712488e5c9",
+  "name" : "2 renders but doesn't exist",
+  "time" : {
+    "start" : 1623350733968,
+    "stop" : 1623350733991,
+    "duration" : 23
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8dfc191d613f1e44",
+  "name" : "renders learn react link",
+  "time" : {
+    "start" : 1623350734319,
+    "stop" : 1623350734342,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b4e40cc9dac81b8",
+  "name" : "renders but doesn't exist",
+  "time" : {
+    "start" : 1623350734343,
+    "stop" : 1623350734359,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5a93533ec294078a",
+  "name" : "2 renders learn react link",
+  "time" : {
+    "start" : 1623350733888,
+    "stop" : 1623350733966,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "830fe0a60e5bb560",
+  "name" : "2 nested renders learn react link",
+  "time" : {
+    "start" : 1623350733991,
+    "stop" : 1623350734013,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
