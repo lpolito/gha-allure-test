@@ -1,0 +1,181 @@
+{
+  "uid" : "6af6b8407a2d06f3",
+  "name" : "random failure",
+  "fullName" : "random failure",
+  "historyId" : "9666730e34fb721e40fab8fa2e68f05d",
+  "time" : {
+    "start" : 1623351359663,
+    "stop" : 1623351359669,
+    "duration" : 6
+  },
+  "description" : "\n### Test\n```typescript\n() => {\n  const time = Date.now();\n\n  expect(time % 2).toBe(0);\n};\n\n```\n",
+  "descriptionHtml" : "<h3>Test</h3>\n<pre><code class=\"language-typescript\">() =&gt; {\n  const time = Date.now();\n\n  expect(time % 2).toBe(0);\n};\n\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n",
+  "statusTrace" : "Expected: 0\nReceived: 1",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src"
+  }, {
+    "name" : "package",
+    "value" : "src"
+  }, {
+    "name" : "subSuite",
+    "value" : "App2.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "8a49a6ea6c79b888",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/30//#testresult/8a49a6ea6c79b888",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n",
+        "time" : {
+          "start" : 1623350892634,
+          "stop" : 1623350892641,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "5cc825129be24c7b",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/29//#testresult/5cc825129be24c7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623350734028,
+          "stop" : 1623350734033,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "e78d54e31be160d",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/28//#testresult/e78d54e31be160d",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n",
+        "time" : {
+          "start" : 1623350539553,
+          "stop" : 1623350539561,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "dc9ceffc962aa112",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/27//#testresult/dc9ceffc962aa112",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n",
+        "time" : {
+          "start" : 1623350238519,
+          "stop" : 1623350238525,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "59f9c6acaabec01e",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/59f9c6acaabec01e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622654917061,
+          "stop" : 1622654917067,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "ee5f014a7a096ef4",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/ee5f014a7a096ef4",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n",
+        "time" : {
+          "start" : 1622654665417,
+          "stop" : 1622654665424,
+          "duration" : 7
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6af6b8407a2d06f3.json",
+  "parameterValues" : [ ]
+}

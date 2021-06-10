@@ -1,0 +1,180 @@
+{
+  "uid" : "e2db2f6534d14d",
+  "name" : "2 renders learn react link",
+  "fullName" : "2 renders learn react link",
+  "historyId" : "9f109f5fdb69d1dbfbacbbb8a9c736e7",
+  "time" : {
+    "start" : 1623351359542,
+    "stop" : 1623351359611,
+    "duration" : 69
+  },
+  "description" : "\n### Test\n```typescript\n() => {\n  (0, _react.render)(\n    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(\n      _App.default,\n      {},\n      void 0,\n      false,\n      {\n        fileName: _jsxFileName,\n        lineNumber: 6,\n        columnNumber: 10,\n      },\n      void 0\n    )\n  );\n\n  const linkElement = _react.screen.getByText(/learn react/i);\n\n  expect(linkElement).toBeInTheDocument();\n};\n\n```\n",
+  "descriptionHtml" : "<h3>Test</h3>\n<pre><code class=\"language-typescript\">() =&gt; {\n  (0, _react.render)(\n    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(\n      _App.default,\n      {},\n      void 0,\n      false,\n      {\n        fileName: _jsxFileName,\n        lineNumber: 6,\n        columnNumber: 10,\n      },\n      void 0\n    )\n  );\n\n  const linkElement = _react.screen.getByText(/learn react/i);\n\n  expect(linkElement).toBeInTheDocument();\n};\n\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src"
+  }, {
+    "name" : "package",
+    "value" : "src"
+  }, {
+    "name" : "subSuite",
+    "value" : "App2.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "d4c29907756fadbb",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/30//#testresult/d4c29907756fadbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623350892497,
+          "stop" : 1623350892578,
+          "duration" : 81
+        }
+      }, {
+        "uid" : "5a93533ec294078a",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/29//#testresult/5a93533ec294078a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623350733888,
+          "stop" : 1623350733966,
+          "duration" : 78
+        }
+      }, {
+        "uid" : "53530a479bf037fd",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/28//#testresult/53530a479bf037fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623350539401,
+          "stop" : 1623350539493,
+          "duration" : 92
+        }
+      }, {
+        "uid" : "1bde3f7b507fe05a",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/27//#testresult/1bde3f7b507fe05a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623350238386,
+          "stop" : 1623350238468,
+          "duration" : 82
+        }
+      }, {
+        "uid" : "7ef1994c82560434",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/7ef1994c82560434",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622654916918,
+          "stop" : 1622654917003,
+          "duration" : 85
+        }
+      }, {
+        "uid" : "1e2ba6570c45692",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/1e2ba6570c45692",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622654665279,
+          "stop" : 1622654665365,
+          "duration" : 86
+        }
+      }, {
+        "uid" : "82d98236500f0876",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/25//#testresult/82d98236500f0876",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622654161467,
+          "stop" : 1622654161559,
+          "duration" : 92
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e2db2f6534d14d.json",
+  "parameterValues" : [ ]
+}
