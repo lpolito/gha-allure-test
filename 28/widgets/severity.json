@@ -1,0 +1,91 @@
+[ {
+  "uid" : "ef8b1817e144fe9a",
+  "name" : "2 nested renders learn react link",
+  "time" : {
+    "start" : 1623350539523,
+    "stop" : 1623350539538,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3b05c927c05329f",
+  "name" : "2 nested renders but doesn't exist",
+  "time" : {
+    "start" : 1623350539538,
+    "stop" : 1623350539553,
+    "duration" : 15
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f65af0020e7abee3",
+  "name" : "nested renders but doesn't exist",
+  "time" : {
+    "start" : 1623350539939,
+    "stop" : 1623350539953,
+    "duration" : 14
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "53530a479bf037fd",
+  "name" : "2 renders learn react link",
+  "time" : {
+    "start" : 1623350539401,
+    "stop" : 1623350539493,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "503c604f20434b90",
+  "name" : "renders but doesn't exist",
+  "time" : {
+    "start" : 1623350539906,
+    "stop" : 1623350539926,
+    "duration" : 20
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "30191f07acb8a207",
+  "name" : "2 renders but doesn't exist",
+  "time" : {
+    "start" : 1623350539494,
+    "stop" : 1623350539522,
+    "duration" : 28
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "82d34ccadd92acfb",
+  "name" : "renders learn react link",
+  "time" : {
+    "start" : 1623350539880,
+    "stop" : 1623350539906,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32528d15df4f500f",
+  "name" : "nested renders learn react link",
+  "time" : {
+    "start" : 1623350539926,
+    "stop" : 1623350539939,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e78d54e31be160d",
+  "name" : "random failure",
+  "time" : {
+    "start" : 1623350539553,
+    "stop" : 1623350539561,
+    "duration" : 8
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,133 @@
+{
+  "uid" : "82d34ccadd92acfb",
+  "name" : "renders learn react link",
+  "fullName" : "renders learn react link",
+  "historyId" : "b3580991697baf1a2a1710a76fbc0855",
+  "time" : {
+    "start" : 1623350539880,
+    "stop" : 1623350539906,
+    "duration" : 26
+  },
+  "description" : "\n### Test\n```typescript\n() => {\n  (0, _react.render)(\n    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(\n      _App.default,\n      {},\n      void 0,\n      false,\n      {\n        fileName: _jsxFileName,\n        lineNumber: 5,\n        columnNumber: 10,\n      },\n      void 0\n    )\n  );\n\n  const linkElement = _react.screen.getByText(/learn react/i);\n\n  expect(linkElement).toBeInTheDocument();\n};\n\n```\n",
+  "descriptionHtml" : "<h3>Test</h3>\n<pre><code class=\"language-typescript\">() =&gt; {\n  (0, _react.render)(\n    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(\n      _App.default,\n      {},\n      void 0,\n      false,\n      {\n        fileName: _jsxFileName,\n        lineNumber: 5,\n        columnNumber: 10,\n      },\n      void 0\n    )\n  );\n\n  const linkElement = _react.screen.getByText(/learn react/i);\n\n  expect(linkElement).toBeInTheDocument();\n};\n\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src"
+  }, {
+    "name" : "package",
+    "value" : "src"
+  }, {
+    "name" : "subSuite",
+    "value" : "App.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "8f37f1ebd9cbecf6",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/27//#testresult/8f37f1ebd9cbecf6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623350238754,
+          "stop" : 1623350238777,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "a973a21ae304e69",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/a973a21ae304e69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622654917368,
+          "stop" : 1622654917384,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "647040224b751665",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/26//#testresult/647040224b751665",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622654665723,
+          "stop" : 1622654665747,
+          "duration" : 24
+        }
+      }, {
+        "uid" : "519ebab5bd3f83aa",
+        "reportUrl" : "https://lpolito.github.io/gha-allure-test/25//#testresult/519ebab5bd3f83aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622654161932,
+          "stop" : 1622654161949,
+          "duration" : 17
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "82d34ccadd92acfb.json",
+  "parameterValues" : [ ]
+}
